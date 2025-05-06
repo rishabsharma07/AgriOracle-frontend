@@ -19,7 +19,7 @@ const DiseasePrediction = () => {
         setError('');
 
         try {
-            const response = await fetch('http://127.0.0.1:5000/predict_disease', {
+            const response = await fetch('https://agrioracle-6wvv.onrender.com/predict_disease', {
                 method: 'POST',
                 body: formData,
             });
@@ -57,7 +57,7 @@ const DiseasePrediction = () => {
                     <p className="prediction-info"><strong>Cure:</strong> {prediction.cure}</p>
                     <h4 className="processed-title">Processed Image from Server:</h4>
                     <img
-                        src={`http://127.0.0.1:5000${prediction.image_url}`}
+                        src={`https://agrioracle-6wvv.onrender.com${prediction.image_url}`}
                         alt="Predicted Disease"
                         className="prediction-image"
                     />

@@ -19,7 +19,7 @@ const CropRecommendation = () => {
 
     try {
       const response = await axios.post(
-        'http://127.0.0.1:5000/recommend_crop',
+        'https://agrioracle-6wvv.onrender.com/recommend_crop',
         { previous_crop: previousCrop, soil_type: soilType, season }
       );
 

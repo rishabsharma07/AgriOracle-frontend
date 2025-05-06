@@ -19,7 +19,7 @@ function App() {
 
         <div className="content">
           <Routes>
-            <Route path="/" element={<LandingPage />} />
+            <Route path="https://agrioracle-6wvv.onrender.com/" element={<LandingPage />} />
             <Route path="/predict_disease" element={<DiseasePrediction />} />
             <Route path="/recommend_crop" element={<CropRecommendation />} />
             <Route path="/general-info"element={<GeneralInfo />} />
