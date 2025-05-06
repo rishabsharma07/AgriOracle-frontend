@@ -20,13 +20,13 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="https://agrioracle-6wvv.onrender.com/" element={<LandingPage />} />
-            <Route path="/predict_disease" element={<DiseasePrediction />} />
-            <Route path="/recommend_crop" element={<CropRecommendation />} />
-            <Route path="/general-info"element={<GeneralInfo />} />
-            <Route path="/our-services" element={<OurServices />} />
-            <Route path="/about" element={<AboutUs />} />
-            <Route path="/contact" element={<ContactUs />} />
-            <Route path="/crop_intercropping" element={<CropIntercropping />} />
+            <Route path="https://agrioracle-6wvv.onrender.com/predict_disease" element={<DiseasePrediction />} />
+            <Route path="https://agrioracle-6wvv.onrender.com/recommend_crop" element={<CropRecommendation />} />
+            <Route path="https://agrioracle-6wvv.onrender.com/general-info"element={<GeneralInfo />} />
+            <Route path="https://agrioracle-6wvv.onrender.com/our-services" element={<OurServices />} />
+            <Route path="https://agrioracle-6wvv.onrender.com/about" element={<AboutUs />} />
+            <Route path="https://agrioracle-6wvv.onrender.com/contact" element={<ContactUs />} />
+            <Route path="https://agrioracle-6wvv.onrender.com/crop_intercropping" element={<CropIntercropping />} />
           </Routes>
         </div>
 
